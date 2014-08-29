@@ -1,0 +1,23 @@
+# -- coding: utf-8 -- --> sets the character encoding
+
+x = --> set a variable value
+
+print --> print text or values, must use ""s, and can use """ for multiple lines
+
+%s %r %d --> formatters that let you insert values into a string 
+(%r is a basic value used for testing)
+
+x = raw_input('Prompt:') --> a function that prompts the user for an input and 
+stores it as x
+
+int() --> function that changes a variable to an integer instead of a string if possible
+
+from sys import argv --> imports the argv parameter which lets you take a script name 
+from the command line
+
+x = open(file, 'w') --> makes x the value of the contents of file, with modifier 'w' for
+write, 'r' for read, or 'a' for append
+
+print x.read() --> read the value of x and then print it
+
+x.truncate() --> empties x
